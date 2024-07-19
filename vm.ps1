@@ -28,6 +28,7 @@ $desiredVmCount = $vmNames.Count
 
 Write-Host "Setting Azure Subscription to $subscription" -ForegroundColor Yellow
 az account set --subscription=$subscription
+
 $aksRgExists = az group exists --name $resourceGroupName
 #Write-Host "$resourceGroupName exists : $aksRgExists"
 
