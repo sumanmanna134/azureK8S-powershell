@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: canary-service
+  namespace: default
+spec:
+  selector:
+    app: canary-app
+  type: LoadBalancer
+  ports:
+    - name: http-port
+      port: 80
+      targetPort: 80
+      protocol: TCP
