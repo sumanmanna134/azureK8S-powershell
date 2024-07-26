@@ -1,7 +1,3 @@
-Here’s a README file for your repository:
-
----
-
 # Azure Kubernetes Service (AKS) PowerShell Scripts
 
 This repository contains PowerShell scripts for managing and automating tasks related to Azure Kubernetes Service (AKS). These scripts are designed to simplify operations such as cluster management, scaling, and monitoring.
